@@ -1,18 +1,18 @@
-about {
-    display: block;;
+.about  .about-phrase {
+    display: block;
 }
 
-about-section {
+.about-section {
     padding: 80px 132px;
     width: 1440px;
     height: 790px;
 }
-about-us {
+.about-us {
     width: 174px;
     height: 44px;
 }
 
-about-phrase {
+.about-phrase {
     font-family: var(--font-family);
     font-weight: 300;
     font-size: 14px;
