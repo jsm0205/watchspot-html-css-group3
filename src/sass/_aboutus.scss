@@ -21,6 +21,10 @@
     display: block;
 }
 
+.about-us-container .about {
+    display: inline-flex;
+}
+
 .about-phrase {
     font-family: var(--font-family);
     font-weight: 300;
