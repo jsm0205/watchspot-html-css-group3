@@ -76,7 +76,7 @@
       padding: 60px 40px;
       width: auto;
       height: auto;
-      display: block;
+      display: inline-block;
     }
   
     .about-us {
@@ -85,9 +85,10 @@
       margin-bottom: 20px;
     }
   
-    .about-phrase {
+    .about-section .about-phrase {
       margin-right: 0;
       margin-bottom: 20px;
+      display: inline-block;
     }
   
     .about-image {
