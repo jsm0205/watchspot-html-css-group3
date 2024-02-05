@@ -5,11 +5,9 @@
 
 .about-section {
     padding: 80px 132px;
-    width: 1440px;
+    width: 1809px;
     height: 790px;
-
-    // my code
-    justify-content: space-between;
+    display: flex;
 }
 .about-us {
     width: 174px;
@@ -24,14 +22,10 @@
     line-height: 129%;
     letter-spacing: -0.02em;
     color: var(--black);
-
-
     // my code
-    gap: 40px; 
+    margin-right: 40px;
 
 }
-
-
 
 
 // My code
