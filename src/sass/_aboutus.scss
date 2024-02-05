@@ -74,8 +74,8 @@
     // flex-wrap: wrap;
 }
 
-.about-section {
-    padding: 80px 132px;
+.about-section  {
+    // padding: 80px 132px;
     width: 1809px;
     height: 790px;
     display: flex;
@@ -104,21 +104,19 @@
 
 // My code
 
-
-
 .about-section .about-phrase {
     display: inline-block;
     
 }
 
 .about-image {
-    width: 892px;
+    width: 819.81px;
     height: 500px;
 }
 
 
 /*  (desktop) */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1809px) {
     .about-section {
       padding: 80px 132px;
       width: 1809px;
