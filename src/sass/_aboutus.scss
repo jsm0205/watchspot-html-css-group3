@@ -43,20 +43,24 @@
 }
 
 
-/* Styles for screens smaller than 768px */
+/* Styles for screens smaller than 768px (mobile) */
 @media (max-width: 767px) {
     .about-section {
       padding: 40px 20px;
       width: auto;
       height: auto;
-      flex-direction: column;
+      display: block;
     }
   
-    .about-us,
-    .about-phrase {
+    .about-us {
       width: auto;
       height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .about-phrase {
       margin-right: 0;
+      margin-bottom: 20px;
     }
   
     .about-image {
@@ -66,19 +70,24 @@
     }
   }
   
-  /* Styles for screens between 768px and 1157px */
-  @media (min-width: 768px) and (max-width: 1157px) {
+  /* Styles for screens between 768px and 1023px (tablet) */
+  @media (min-width: 768px) and (max-width: 1023px) {
     .about-section {
       padding: 60px 40px;
-      width: 100%;
-      height: auto;
-    }
-  
-    .about-us,
-    .about-phrase {
       width: auto;
       height: auto;
+      display: block;
+    }
+  
+    .about-us {
+      width: auto;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .about-phrase {
       margin-right: 0;
+      margin-bottom: 20px;
     }
   
     .about-image {
@@ -88,12 +97,13 @@
     }
   }
   
-  /* Styles for screens larger than 1157px */
-  @media (min-width: 1158px) {
+  /* Styles for screens larger than 1023px (desktop) */
+  @media (min-width: 1024px) {
     .about-section {
       padding: 80px 132px;
       width: 1809px;
       height: 790px;
+      display: flex;
     }
   
     .about-us {
@@ -103,8 +113,6 @@
   
     .about-phrase {
       margin-right: 40px;
-  
-  
     }
   
     .about-image {
