@@ -1,7 +1,7 @@
-.about {
-    display: inline-block;
+// .about {
+//     display: inline-block;
     
-}
+// }
 
 .about-section {
     padding: 80px 132px;
@@ -26,39 +26,11 @@
 
 
 
-// .about-section {
-//     display: flex;
-//     flex-direction: column;
-//     padding: 80px 132px;
-//     width: 1440px;
-//     height: 790px;
-// }
+// My code
 
-
-// .about-us .about-phrase {
-//     text-align: center;
-// }
-// .about-us {
-//     width: 174px;
-//     height: 44px;
-//     margin: 0;
-// }
-
-// .about-phrase {
-//     font-family: var(--font-family);
-//     font-weight: 300;
-//     font-size: 14px;
-//     line-height: 129%;
-//     letter-spacing: -0.02em;
-//     color: var(--black);
-//     margin: 0;
-// }
-
-// .about-image {
-//     display: block;
-//     margin-top: 10px;
-// }
-
-
+.about-section .about {
+    display: inline-block;
+    
+}
 
 
