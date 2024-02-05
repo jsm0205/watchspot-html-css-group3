@@ -33,7 +33,7 @@
         padding: 80px 132px;
     }
 
-    @media screen and (min-1223px) {
+    @media screen and (min-width: 1223px) {
         justify-content: flex-start;
       
         padding: 80px 132px;
@@ -60,6 +60,15 @@
 .about-section .about-phrase {
     display: inline-block;
     
+}
+
+.about-image {
+    width:335px;
+    height: 500px;
+
+    @media 
+
+
 }
 
 
